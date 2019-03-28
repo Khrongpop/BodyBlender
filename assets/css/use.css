@@ -1,0 +1,204 @@
+
+
+.usesreen {
+	width: 100%;
+	margin-top: 5px;
+	height: 84%;
+	background-color: #fff;
+	float: left;
+	transition: .5s ease-in-out;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.sreen3 {
+	background-color: #222;
+}
+.usesreen::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+	display: none;
+}
+
+.usesreen::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+	display: none;
+}
+
+.usesreen::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+	display: none;
+}
+.iphone .calmenu {
+	cursor: pointer;
+}
+.iputCM ,.txtinput {
+	color: #222;
+}
+.iphone .bmicircle {
+	width: 120px;
+	height: 120px;
+	padding: 45px 0;
+}
+.iphone .show {
+	color: #222;
+}
+.bf {
+	width: 100%;
+	float: left;
+}
+.inputgender {
+	width: 100%;
+	float: left;
+}
+.inputgender label {
+	color: #222;
+	font-size: 16px;
+	margin:  10px 10px 0;
+}
+.inputgender span {
+	color: #222;
+	padding: 10px 0 0;
+	float: left;
+}
+input[name=gender2]{
+	margin: 11px 5px 0;
+	float: left;
+}
+.iphone .bf .calbtn {
+	margin: 0 auto 10px;
+}
+.bfans {
+	width: 100%;
+	float: left;
+	background-color: #003a9c;
+	margin: 10px 0 0;
+	padding: 15px;
+	color: #fff;
+	font-size: 22px;
+}
+@media screen and (min-width: 768px){
+	.iphone .show {
+		padding: 0;
+		margin-top: 0;
+		font-size: 14px;
+	}
+	.iphone .bmicircle {
+		width: 110px;
+		height: 110px;
+		font-size: 40px;
+		padding: 35px 0;
+		margin: 5px auto;
+	}
+	.inputgender label {
+		margin:  5px 10px 0;
+	}
+}
+@media screen and (min-width: 1024px){
+	.usesreen {
+		height: 84%;
+	}
+	.iphone .menuapp {
+		height: 50px;
+	}
+	.iphone .appicon {
+	    width: 40%;
+	    height: 20px;
+	    margin: 10px auto 3px;
+	}
+	.iphone .calmenu {
+		font-size: 20px;
+		height: 50px;
+		padding: 13px 0;
+		margin-bottom: 0;
+	}
+	.iphone .txtinput {
+		font-size: 20px;
+		margin: 18px auto 22px;
+	}
+	.iphone .input {
+		width: 55%;
+		height: 35px;
+		font-size: 18px;
+	}
+	.iphone .iputCM {
+		padding-top: 18px;
+		width: 43%;
+		font-size: 18px;
+	}
+	.ppad {
+		padding-top: 5px;
+	}
+	.iphone .calbtn {
+		width: 60%;
+		height: 50px;
+		margin: 10px auto;
+		font-size: 20px;
+		padding: 15px 0;
+	}
+	.iphone .bmicircle {
+		font-size: 40px;
+		margin-top: 10px;
+	}
+}
+
+.force-sreen {
+	min-height: 100%;
+}
+
+.iphone .apphead {
+	/*background-color: #222;*/
+	font-family: 'superspace_boldregular';
+	height: 40px;
+}
+.detailfeed {
+	color: #222;
+}
+
+.setting {
+	width: 100%;
+	float: left;
+}
+.statpic {
+	width: auto;
+	height: auto;
+	background-image: url(../images/user.png);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.settitem {
+	width: 100%;
+	float: left;
+	padding: 10px 20px;
+	box-shadow: 0 1px 5px 0 rgba(0,0,0,0.16);
+	color: #222;
+}
+.settitem input , .settitem textarea{
+	border: 0;
+	padding-left: 5px;
+	font-size: 18px;
+	width: 60%;
+}
+ .settitem textarea {
+ 	width: 55%;
+ }
+.settitem textarea {
+	height: 30px;
+	margin: 0 10px 0 0;
+	float: right;
+}
+.radio {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	border: 2px solid#003a9c;
+	margin: 0 5px 0;
+	float: right;
+}

@@ -1,0 +1,2118 @@
+@import url(iphone.css);
+@import url(use.css);
+@import url(flickity-docs.css);
+@import url(about-style.css);
+html {
+	  line-height: 1.15;
+		-ms-text-size-adjust: 100%; /* 3 */
+  -webkit-text-size-adjust: 100%; /* 3 */
+}
+header {
+	background-image: url(../images/howtouse-head-m.jpg);
+	height: 310px;
+	background-position: -350px bottom ;
+}
+.head-feattitle {
+	width: 30%;
+	margin: 20px auto 20px;
+	font-size: 58px;
+}
+.appscreen {
+	width: 230px;
+	height: 395px;
+	background-color: #fff;
+	border: 5px solid#003a9c;
+	margin: 20px auto;
+	position: relative;
+}
+.apphead {
+	width: 100%;
+	height: 50px;
+	background-color: #003a9c;
+	text-align: center;
+	font-size: 24px;
+	box-sizing: border-box;
+	padding: 10px 0;
+	color: #fff;
+	z-index:100;
+}
+.dayset {
+	width: 100%;
+	margin: 10px auto 10px;
+	font-size: 18px;
+	text-align: center;
+	color: #003a9c;
+}
+.dayset p span {
+	margin: 0 15px;
+}
+.daiyapp {
+	padding: 5px;
+	width: 100%;
+	height: auto;
+}
+.appcontentLeft {
+	width: 50%;
+	float: left;
+}
+.appcontentRight {
+	width: 50%;
+	float: right;
+}
+.upwidht {
+	width: 60%;
+}
+.downwidht {
+	width: 40%;
+}
+.calDay p {
+	font-size: 20px;
+	text-align: center;
+	color: #003a9c;
+	line-height: 0.9;
+	font-weight: bold;
+}
+input[name=calDay]{
+	font-size: 20px;
+	text-align: center;
+	color: #003a9c;
+	line-height: 0.9;
+	font-weight: bold;
+	border: 0;
+	width: 100%;
+}
+.calDay h6 {
+	font-size: 9.5px;
+	color: #003a9c;
+	text-align: center;
+}
+.addbtn {
+	width: 80%;
+	height: 20px;
+	text-align: center;
+	background-color: #003a9c;
+	padding: 5.5px 0;
+	box-sizing: border-box;
+	margin: 2.5px auto;
+	color: #fff;
+	font-size: 9.5px;
+	cursor: pointer;
+}
+.addbtn:active {
+	background-color: #052761;
+}
+.calbox {
+	width: 100%;
+	height: 40px;
+	background-color: #003a9c;
+	float: left;
+	margin: 10px 0;
+	padding: 5px 0;
+	box-sizing: border-box;
+}
+.detailcal {
+	width: 25%;
+	height: 30px;
+	float: left;
+	border-right: 2px solid#fff;
+	border-radius: 2px;
+	color: #fff;
+	padding: 7px 0;
+	box-sizing: border-box;
+}
+.detailcal1 {
+	padding: 1px 0 7px;
+}
+input[name=goals]{
+	text-align: center;
+	font-size: 12px;
+	line-height: 0.85;
+	width: 100%;
+	border: 0;
+	background: transparent;
+	color: #fff;
+	/*height: 11px;*/
+}
+.detailcal p {
+	text-align: center;
+	font-size: 12.5px;
+	line-height: 0.85;
+}
+.detailcal h6 {
+	font-size: 8px;
+	text-align: center;
+}
+.lastdetai {
+	border: 0;
+}
+.newfeed {
+	width: 100%;
+	height: 20px;
+	color: #fff;
+	float: left;
+	background-color: #003a9c;
+	padding: 2px 8px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+.feed {
+	width: 100%;
+	height: auto;
+	float: left;
+	box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.8);
+	margin: 10px 0;
+	border: 1px solid#999;
+}
+.feedsetcircle {
+	width: 30%;
+	height: auto;
+	float: left;
+}
+.feedcircle {
+	width: 40px;
+	height: 40px;
+	margin: 10px auto 0;
+	border-radius: 50%;
+}
+.feedname {
+	width: 70%;
+	height: auto;
+	float: right;
+	padding: 15px 3px;
+	box-sizing: border-box;
+}
+.feedname p {
+	font-size: 14px;
+	color: #003a9c;
+	line-height: 1.1;
+}
+.feedname h6 {
+	font-size: 10px;
+	color: #999;
+}
+.detailfeed {
+	width: 95%;
+	height: auto;
+	padding: 5px 10px 10px;
+	font-size: 12px;
+	border-bottom: 2px solid#222;
+	border-radius: 2px;
+	margin: 0 auto 5px;
+}
+.detailfeed span {
+	color: #003a9c;
+}
+.feedcm {
+	color: #003a9c;
+	width: 90%;
+	margin: 0 auto 5px;
+	font-size: 12px;
+	cursor: pointer;
+}
+.setmenuapp {
+	width: 100%;
+	height: auto;
+	float: left;
+}
+.menuapp {
+	width: 20%;
+	height: 50px;
+	float: left;
+	background-color: #222;
+	color: #fff;
+	text-align: center;
+	font-size: 10px;
+	cursor: pointer;
+	transition: .5s ease-in-out;
+}
+.appAtive {
+	background-color: #003a9c;
+}
+.appicon {
+	width: 40%;
+	height: 20px;
+	margin: 10px auto 3px;
+}
+.picApp2 {
+	width: 57%;
+	height: 21px;
+	margin: 7.8px auto 5px;
+}
+.picApp3 {
+	background-image: url(../images/muscle.png);
+}
+.appAtive .picApp1 {
+	background-image: url(../images/app1-act.png)
+}
+.appAtive .picApp2 {
+	background-image: url(../images/app4-act.png)
+}
+.appAtive .picApp3 {
+	background-image: url(../images/muscle-act.png)
+}
+.appAtive .picApp5 {
+	background-image: url(../images/app3-act.png)
+}
+.appAtive .picApp6 {
+	background-image: url(../images/app2-act.png)
+}
+/*app1how*/
+.apphow {
+	width: auto;
+	height: auto;
+	background-color: #222;
+	position: absolute;
+	text-align: center;
+	padding: 10px;
+	color: #fff;
+	border-radius: 5%;
+	font-size: 18px;
+}
+.app1how ,.app1how2 ,.app1btn3 ,.app1btn4 ,.app1btn5 ,.app1btn6 {
+	width: 40%;
+	background-color: #222;
+	position: absolute;
+	text-align: center;
+	font-size: 18px;
+	top: 55px;
+	right: 0;
+	color: #fff;
+	padding: 5px 0;
+	border-radius: 5%;
+}
+.app1how2 {
+	width: 60%;
+	top: 120px;
+ 	right: -10px;
+ 	padding: 10px;
+}
+.app1btn3 {
+	width: 60%;
+	top: 120px;
+	left: -10px;
+	padding: 10px;
+}
+.app1btn4 {
+	width: 60%;
+	top: 160px;
+	left: 50px;
+	padding: 10px;
+}
+.app1btn5 {
+	width: 60%;
+	top: 320px;
+	left: 50px;
+	padding: 10px;
+}
+.app1btn6 ,.app2btn6  ,.app3btn6 ,.app4btn6 ,.app5btn6 ,.app6btn6{
+	top: 300px;
+	left: 50px;
+	padding: 10px;
+}
+/*app1how end */
+/*calsreen*/
+.calsreen {
+	width: 100%;
+	height: 340px;
+	float: left;
+	box-sizing: border-box;
+}
+.calmenu {
+	width: 50%;
+	height: 50px;
+	float: left;
+	background-color: #003a9c;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #fff;
+	padding: 15px 0;
+	box-sizing: border-box;
+	transition: .5s ease-in-out;
+}
+.calmenuActive {
+	color: #003a9c;
+	background-color: #fff;
+}
+.calbtn {
+	width: 60%;
+	height: 50px;
+	margin: 0px auto;
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #003a9c;
+	color: #fff;
+	padding: 15px 0;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+.calbtn:active {
+	background-color: #052761;
+}
+.txtinput {
+	margin: 18px auto 22px;
+	text-align: center;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.input {
+	background-color: #003a9c;
+	width: 55%;
+	height: 30px;
+	background-color: #ccc;
+	padding: 8px;
+	box-sizing: border-box;
+	text-align: center;
+	text-transform: uppercase;
+	color: #003a9c;
+	margin: 10px 0 0 -5px;
+	float: left;
+}
+.iputCM {
+	float: right;
+	width: 43%;
+	text-align: left;
+	font-size: 18px;
+	padding: 17px 0 0;
+	text-transform: uppercase;
+}
+.show {
+	padding-top: 10px;
+	font-size: 14px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.bmicircle {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: #003a9c;
+	color: #fff;
+	font-size: 34px;
+	padding: 35px 0;
+	box-sizing: border-box;
+	margin: 10px auto;
+}
+/*app2how*/
+#app1btn1 ,#app1btn2 ,#app1btn3 ,#app1btn4 ,#app1btn5 ,#app1btn6 ,
+#app2btn1 ,#app2btn2 ,#app2btn3 , #app2btn4 ,#app2btn5 ,#app2btn6 ,
+#app3btn1 ,#app3btn2 ,#app3btn3 ,#app3btn4 ,#app3btn5 ,#app3btn6 ,
+#app4btn1 ,#app4btn2 ,#app4btn3 , #app4btn4 ,#app4btn5 ,#app4btn6 ,
+#app5btn1 ,#app5btn2 ,#app5btn3 ,#app5btn4 ,#app5btn5 ,#app5btn6 ,
+#app6btn1 ,#app6btn2 ,#app6btn3 , #app6btn4 ,#app6btn5 ,#app6btn6 {
+	cursor: pointer;
+}
+.app2btn1 ,.app2btn2 {
+	left: 10px;
+	top: 40px;
+}
+.app2btn3 {
+	top: 135px;
+	left: 43px;
+}
+.app2btn4 {
+	top: 190px;
+	left: 55px;
+}
+.app2btn5 {
+	top: 300px;
+	left: 55px;
+}
+/*app3*/
+.setback {
+	width: 20%;
+	float: left;
+	font-size: 18px;
+	padding: 5px 0;
+	box-sizing: border-box;
+}
+.setapphead {
+	width: 60%;
+	float: left;
+}
+.app3screen {
+	width: 100%;
+	height: 288px;
+	overflow: hidden;
+	float: left;
+}
+.crunchimg {
+	width: 70%;
+	height: 55px;
+	margin: 20px auto 5px;
+	background-image: url(../images/crunch.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.playcircle {
+	width: 55px;
+	height: 55px;
+	margin: 10px auto 8px;
+	border-radius: 50%;
+	background-color: #003a9c;
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+	padding: 16px 20px;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+.playcircle:active {
+	background-color: #052761;
+}
+.app3detail {
+	width: 95%;
+	height: auto;
+	padding: 10px;
+	background-color: #ccc;
+	margin: 0 auto;
+}
+.app3detail h1 {
+	text-align: center;
+	color: #003a9c;
+	font-size: 15px;
+}
+.app3detail p {
+	color: #222;
+	font-size: 12px;
+	line-height: 1.1;
+}
+.app3detail p span {
+	color: #003a9c;
+	font-size: 14px;
+	line-height: 1.1;
+}
+.app3btn1 ,.app4btn1 {
+	top: 35px;
+}
+.app3btn2 ,.app4btn2 {
+	top: 35px;
+	left: 45px;
+}
+.app3btn3 {
+	top: 35px;
+	right: 5px;
+}
+.app3btn4 {
+	top: 180px;
+	left: 40px;
+}
+.app3btn5 {
+	top: 320px;
+}
+/*proscreen*/
+#app4btn2 ,.happ5 {
+	font-size: 20px;
+	padding-top: 5px;
+}
+.app4l {
+	width: 45%;
+	height: 160px;
+	float: left;
+	background-color: #ccc;
+}
+.app4l2 {
+	width: 45%;
+	float: left;
+}
+.app4r {
+	width: 55%;
+	height: 160px;
+	float: right;
+	background-color: #ccc;
+	font-size: 12px;
+	color: #222;
+}
+.app4r2 {
+	width: 55%;
+	float: right;
+}
+.proPic {
+	width: 90%;
+	height: 85%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-image: url(../images/app4Pic.jpg);
+	margin: 10px auto;
+}
+.app4txt {
+	text-align: left;
+	line-height: 1.2;
+	padding: 10px 5px 0;
+	font-weight: bold;
+}
+.app4level {
+	margin: 5px 0;
+}
+.app4level p {
+	text-align: center;
+}
+.levelBar {
+	width: 80%;
+	position: relative;
+	margin: 5px auto;
+}
+.levelImg {
+	width: 100%;
+	height: 20px;
+	background-image: url(../images/levelbar.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.levelPick {
+	width: 10px;
+	height: 10px;
+	background-image: url(../images/levelpick.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 15%;
+	bottom:  1px;
+}
+.levelBar h6 {
+	position: absolute;
+	left: 13.5%;
+	bottom: -13px;
+}
+.headwork {
+	width: 95%;
+	margin: 4px auto 2px;
+	font-size: 14px;
+	color: #003a9c;
+}
+.work {
+	width: 90%;
+	height: 50px;
+	background-size: 100%;
+	margin: 5px auto;
+}
+.work1 {
+	background-image: url(../images/work1.jpg);
+}
+.work2 {
+	background-image: url(../images/work2.jpg);
+}
+.reps {
+	font-size: 20px;
+	color: #003a9c;
+	text-align: center;
+	line-height: .8;
+	padding-top: 15px;
+}
+.reps span {
+	font-size: 14px;
+}
+.app4btn2 {
+	left: 25px;
+}
+.app4btn3 {
+	right: 0;
+	top: 200px;
+}
+.app4btn4 {
+	top: 230px;
+}
+.app4btn5 {
+	top: 280px;
+}
+/*food*/
+.setfooditem {
+	width: 100%;
+	float: left;
+	background-color: #ccc;
+}
+.setfooditem h1 {
+	color: #003a9c;
+	width: 90%;
+	margin: 5px auto;
+}
+.formfood {
+	width: 90%;
+	margin: 0 auto ;
+}
+.form1 {
+	width: 20%;
+	float: left;
+}
+.form1Box {
+	width: 70%;
+	height: 25px;
+	background-color: #003a9c;
+	border-radius: 5px;
+	color: #fff;
+	text-align: center;
+	padding: 5px 0;
+	box-sizing: border-box;
+}
+.form2 {
+	width: 10%;
+	float: left;
+	color: #003a9c;
+	font-size: 18px;
+	line-height: 1.4;
+}
+.form3 {
+	width: 65%;
+	float: left;
+}
+.form3Box {
+	width: 80%;
+	height: 25px;
+	background-color: #003a9c;
+	border-radius: 5px;
+	color: #fff;
+	padding: 5px 10px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+.iphone .form3Box {
+	font-size: 14px;
+}
+.setfoodpic {
+	width: 100%;
+	padding: 10px 0;
+	box-shadow: 0 1px 10px 0 rgba(0,0,0,0.4);
+	float: left;
+}
+.setpicfood {
+	width: 30%;
+	float: left;
+}
+.foodpic {
+	background-image: url(../images/snack.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 50%;
+	height: 40px;
+	margin: 5px auto;
+}
+.foodDetiew {
+	width: 70%;
+	float: right;
+	text-align: center;
+	font-size: 24px;
+	color: #003a9c;
+	padding-top: 15px;
+}
+.foodDetiew span {
+	font-size: 14px;
+}
+.setfoodbtn {
+	width: 47%;
+	margin: 10px 0 5px;
+}
+.foodbtn {
+	width: 85%;
+	height: 25px;
+	background-color: #999;
+	border-radius: 5%;
+	color: #fff;
+	text-align: center;
+	font-size: 14px;
+	padding: 5px 0;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+.foodbtnact {
+	background-color: #003a9c;
+}
+.foodbtn:active {
+	background-color: #052761;
+}
+.foodP ,.foodP2 {
+	width: 100%;
+	float: left;
+	font-size: 12px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	border-bottom: 5px solid#003a9c;
+	color: #222;
+}
+
+.setnutrition {
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 10px 0;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+	background-color: #fff;
+}
+.app5btn2 {
+	top: 125px;
+	left: 40px;
+}
+.app5btn3 {
+	top: 240px;
+	left: 0;
+}
+.app5btn4 {
+	top: 240px;
+	right:  0;
+}
+.app5btn5 {
+	top: 335px;
+	left: 20px;
+}
+/*app6*/
+.app6l {
+	width: 35%;
+	float: left;
+	background-color: #ccc;
+}
+.app6r {
+	width: 65%;
+	float: right;
+	background-color: #ccc;
+}
+#app6setting ,#app6btn2 {
+	float: right;
+	margin-right: 5%;
+	font-size: 20px;
+	cursor: pointer;
+}
+.circleapp6 {
+	width: 60px;
+	height: 60px;
+	background-color: #222;
+	border-radius: 50%;
+	margin: 10px auto;
+}
+.app6txt {
+	color: #222;
+	font-size: 14px;
+	text-align: center;
+	margin: 10px 0;
+}
+.totalwalk {
+	width: 100%;
+	float: left;
+	background-color: #222;
+	color: #fff;
+	text-align: center;
+	font-size: 13px;
+	line-height: 2.2;
+}
+.app6P {
+	width: 40%;
+	text-align: center;
+	font-size: 16px;
+	color: #222;
+	padding: 5px 0;
+}
+.app6P h2 {
+	font-size: 14px;
+	font-weight: normal;
+}
+.app6P h3 {
+	color: #003a9c;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: .5;
+	padding-top: 3px;
+}
+.app6P h3 span {
+	font-size: 10px;
+}
+.app6P h6 {
+	font-size: 12px;
+	line-height: 1.5;
+	font-weight: normal;
+}
+.app6P .fa-caret-down {
+ 	float: right;
+ 	margin-right: 15%;
+}
+.calwalk {
+	width: 100%;
+	float: left;
+	padding: 10px 0;
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+	background-color: #003a9c;
+}
+.calwalk span {
+	font-size: 18px;
+}
+.hishead {
+	width: 100%;
+	float: left;
+	background-color: #ccc;
+}
+.his {
+	width: 100%;
+	float: left;
+	box-shadow: 0 1px 5px 0 rgba(0,0,0,0.16);
+	padding-bottom: 10px;
+	font-family: 'kollektifregular';
+}
+#app6btn1 {
+	font-size: 18px;
+}
+#app6btn2 {
+	padding-top: 5px;
+}
+.app6btn1 {
+	left: 50px;
+}
+.app6btn2 {
+	right: 10px;
+}
+.app6btn3 {
+	right: 30px;
+	top: 100px;
+}
+.app6btn4 {
+	right: 60px;
+	top: 220px;
+}
+.app6btn5 {
+	bottom: 20px;
+	right: 60px;
+}
+.howtohead {
+	width: 75%;
+	margin: 0 auto 10px;
+	text-align: center;
+	font-size: 34px;
+	color: #000;
+	padding: 10px 0;
+}
+/*use*/
+.use {
+	width: 100%;
+	height: auto;
+	margin: 20px 0 0 0;
+	float: left;
+	background-color: #222;
+}
+.headuse {
+	font-size: 48px;
+	color: #fff;
+	margin:10px 10%;
+}
+.usetext {
+	width: 80%;
+	font-size: 28px;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+}
+@media screen and (min-width: 768px) {
+	header {
+		background-position: bottom;
+		height: 340px;
+	}
+	.head-feattitle {
+		width: 100%;
+		margin: 50px auto 20px;
+		font-size: 100px;
+	}
+	.carousel-cell {
+		width: 33%;
+	}
+	.appscreen {
+		width: 250px;
+		height: 450px;
+	}
+	.howtohead {
+		width: 100%;
+		font-size: 48px;
+		padding: 20px 0;
+	}
+	.dayset {
+		font-size: 22px;
+		margin: 20px auto 10px;
+	}
+	.calDay p {
+		font-size: 26px;
+	}
+	.calDay h6 {
+		font-size: 12px;
+	}
+	.addbtn {
+		height: 25px;
+		font-size: 14px;
+	}
+	.calbox {
+		height: 50px;
+	}
+	.detailcal {
+		height: 40px;
+		padding: 7px 0;
+	}
+	input[name=goals]
+	{
+		font-size: 16px;
+		height: 14px;
+	}
+	.detailcal1 {
+		padding:  5px 0 7px;
+	}
+	.detailcal p {
+		font-size: 16px;
+	}
+	.detailcal h6 {
+		font-size: 12px;
+	}
+	.newfeed {
+		height: 30px;
+		font-size: 18px;
+		padding: 5px 10px;
+	}
+	.feedcircle {
+		width: 50px;
+		height: 50px;
+	}
+	.feedname {
+		padding: 17px 3px;
+	}
+	.feedname  p {
+		font-size: 16px;
+	}
+	.feedname  h6 {
+		font-size: 12px;
+	}
+	.detailfeed ,.feedcm {
+		font-size: 14px;
+	}
+	.picApp2 {
+		height: 26px;
+		margin-bottom: 0;
+	}
+	.app1how2 ,.app1btn3 {
+		top: 140px;
+	}
+	.app1btn4 {
+		top: 200px;
+	}
+	.app1btn5 {
+		top: 370px;
+	}
+	.app1btn6 ,.app2btn6 ,.app3btn6 ,.app4btn6 ,.app5btn6 ,.app6btn6 {
+		top: 360px;
+	}
+	/*calsreen*/
+	.calsreen {
+		height: 395px;
+	}
+	.calmenu {
+		font-size: 22px;
+		margin-bottom: 10px;
+	}
+	.txtinput {
+		font-size: 20px;
+	}
+	.input {
+		height: 35px;
+		font-size: 18px;
+	}
+	.iputCM {
+		padding-top: 18px;
+	}
+	.show {
+		margin-top: 5px;
+		font-size: 16px;
+	}
+	.calbtn {
+		margin: 5px auto;
+	}
+	.bmicircle {
+		width: 115px;
+		height: 115px;
+		font-size: 44px;
+		padding: 37px 0;
+	}
+	.app2btn1 ,.app2btn2 {
+		left: 25px;
+		top: 40px;
+	}
+	.app2btn3 {
+		top: 140px;
+		left: 50px;
+	}
+	.app2btn4 {
+		top: 200px;
+		left: 65px;
+	}
+	.app2btn5 {
+		top: 340px;
+		left: 55px;
+	}
+	/*app3*/
+	.app3screen {
+		height: 343px;
+	}
+	.crunchimg {
+		height: 60px;
+		margin: 20px auto;
+	}
+	.playcircle {
+		margin: 15px auto;
+	}
+	.app3detail h1 {
+		font-size: 18px;
+	}
+	.app3detail p {
+		font-size: 13px;
+		line-height: 1.2;
+	}
+	.app3detail p span {
+		font-size: 16px;
+		line-height: 1.2;
+	}
+	.app3btn2  {
+		left: 55px;
+	}
+	.app3btn4 {
+		top: 200px;
+	}
+	.app3btn5 {
+		top: 370px;
+		left: 10px;
+	}
+	/*app4*/
+	.app4l {
+		height: 170px;
+	}
+	.app4r {
+		height: 170px;
+		font-size: 13.5px;
+	}
+	.levelPick {
+		bottom: 1px;
+	}
+	.levelBar h6 {
+		left: 12%;
+	}
+	.headwork {
+		font-size: 16px;
+	}
+	.app4btn2 {
+		left: 40px;
+	}
+	.app4btn3 {
+		top: 210px;
+	}
+	.app4btn4 {
+		top: 240px;
+	}
+	.app4btn5 {
+		top: 290px;
+		right: 10px;
+	}
+	/*app5*/
+	.foodpic {
+		width: 60%;
+		height: 53px;
+	}
+	.foodDetiew {
+		font-size: 28px;
+		padding-top: 20px;
+	}
+	.foodDetiew span {
+		font-size: 16px;
+	}
+	.setfoodbtn {
+		margin: 10px 0;
+	}
+	.foodP {
+		font-size: 13px;
+	}
+	.app5btn3 ,.app5btn4 {
+		top: 250px;
+	}
+	.app5btn5 {
+		top: 385px;
+		left: 30px;
+	}
+	.headuse {
+		font-size: 64px;
+		color: #fff;
+		margin-top: 40px;
+	}
+	.usetext {
+		width: 70%;
+		font-size: 40px;
+	}
+
+}
+
+@media screen and (min-width: 1024px) {
+	header {
+		background-image: url(../images/howtouse-head.jpg);
+		height: 400px;
+	}
+	.marca {
+		left: 125px;
+		width: 150px;
+	}
+	.carousel-cell {
+		width: 35%;
+	}
+	.appscreen {
+		width: 370px;
+		height: 615px;
+	}
+	.appscreen .dayset {
+		font-size: 34px;
+		margin: 20px auto ;
+	}
+	.appscreen .calDay p {
+		font-size: 34px;
+	}
+	.appscreen .calDay h6 {
+		font-size: 20px;
+	}
+	.appscreen .addbtn {
+		height: 35px;
+		font-size: 24px;
+	}
+	.appscreen .calbox {
+		height: 60px;
+		margin: 20px 0;
+	}
+	.appscreen .detailcal {
+		height: 50px;
+		padding: 10px 0;
+	}
+	.appscreen .detailcal p {
+		font-size: 20px;
+	}
+	.appscreen .detailcal h6 {
+		font-size: 16px;
+	}
+	.appscreen .feed {
+		margin: 20px 0;
+	}
+	.appscreen .newfeed {
+		height: 40px;
+		font-size: 28px;
+		padding: 7px 10px;
+	}
+	.appscreen .feedcircle {
+		width: 80px;
+		height: 80px;
+	}
+	.appscreen .feedname {
+		padding: 23px 3px;
+	}
+	.appscreen .feedname  p {
+		font-size: 24px;
+	}
+	.appscreen .feedname  h6 {
+		font-size: 16px;
+	}
+	.appscreen .detailfeed ,.appscreen .feedcm {
+		font-size: 20px;
+	}
+	.appscreen .menuapp {
+		height: 70px;
+	}
+	.appscreen .appicon {
+		margin: 15px auto 3px;
+		height: 30px;
+	}
+	.appscreen .picApp2 {
+		margin: 10px auto 3px;
+		height: 35px;
+	}
+	.appscreen .app1how {
+		font-size: 24px;
+		top: 60px;
+		padding: 10px;
+	}
+	.appscreen .app1how2 ,.appscreen .app1btn3 {
+		font-size: 24px;
+		top: 175px;
+	}
+	.appscreen .app1btn4 {
+		top: 260px;
+		left: 70px;
+		font-size: 24px;
+	}
+	.appscreen .app1btn5 {
+		top: 510px;
+		font-size: 24px;
+		left: 70px;
+	}
+	.app1btn6 ,.app2btn6 ,.app3btn6 ,.app4btn6 ,.app5btn6 ,.app6btn6 {
+		top: 500px;
+		font-size: 24px;
+	}
+	/*calsreen */
+	.calsreen {
+		height: 540px;
+	}
+	.appscreen .calmenu {
+		font-size: 32px;
+		margin-bottom: 20px;
+		height: 70px;
+		padding: 20px 0;
+	}
+	.appscreen .txtinput {
+		font-size: 28px;
+		margin: 27px 0 35px;
+	}
+	.appscreen .input {
+		width: 58%;
+		height: 55px;
+		font-size: 28px;
+		padding: 17px 0;
+	}
+	.appscreen .iputCM {
+		width: 37%;
+		font-size: 28px;
+		padding-top: 26px;
+	}
+	.show {
+		margin-top: 5px;
+		font-size: 26px;
+	}
+	.calbtn {
+		margin: 5px auto;
+	}
+	.bmicircle {
+		width: 115px;
+		height: 115px;
+		font-size: 44px;
+		padding: 37px 0;
+	}
+	.calbtn {
+		height: 70px;
+		font-size: 30px;
+		padding: 21px 0;
+	}
+	.show {
+		font-size: 20px;
+	}
+	.bmicircle {
+		width: 160px;
+		height: 160px;
+		font-size: 58px;
+		padding: 52px 0;
+	}
+	.apphow {
+		font-size: 24px;
+	}
+	.app2btn1 ,.app2btn2 {
+		left: 55px;
+		top: 50px;
+	}
+	.app2btn3 {
+		top: 210px;
+		left: 80px;
+	}
+	.app2btn4 {
+		top: 300px;
+		left: 105px;
+	}
+	.app2btn5 {
+		top: 470px;
+		left: 105px;
+	}
+	/*app3*/
+	 .setback {
+		width: 10%;
+		font-size: 24px;
+		padding: 0;
+	}
+	.appscreen .setapphead {
+		width: 80%;
+		font-size: 32px;
+		line-height: 0.7;
+	}
+	.setapphead {
+		width: 80%;
+		z-index: 102;
+	}
+	.app3screen {
+		height: 488px;
+	}
+	.appscreen .crunchimg {
+		height: 90px;
+		margin: 30px auto;
+	}
+	.appscreen .playcircle {
+		width: 85px;
+		height: 85px;
+		margin: 15px auto;
+		font-size: 44px;
+		padding: 21px 30px;
+	}
+	.appscreen .app3detail h1 {
+		font-size: 24px;
+	}
+	.appscreen .app3detail p {
+		font-size: 20px;
+		line-height: 1.2;
+	}
+	.appscreen .app3detail p span {
+		font-size: 22px;
+		line-height: 1.2;
+	}
+	.app3btn2  {
+		left: 90px;
+	}
+	.app3btn4 {
+		top: 270px;
+		left: 80px;
+	}
+	.app3btn5 {
+		top: 510px;
+		left: 35px;
+	}
+	/*app4*/
+	#app4btn2 ,.happ5 {
+		font-size: 24px;
+	}
+	.appscreen .app4l {
+		height: 250px;
+		padding-top: 15px;
+	}
+	.appscreen .app4r {
+		height: 250px;
+		padding-top: 15px;
+		font-size: 20px;
+	}
+	.appscreen .app4level {
+		margin-top: 15px;
+	}
+	.appscreen .levelPick {
+		width: 17px;
+		bottom: -3px;
+	}
+	.appscreen .levelBar h6 {
+		bottom: -32px;
+	}
+	.appscreen .headwork {
+		font-size: 22px;
+	}
+	.appscreen .work {
+		height: 80px;
+	}
+	.appscreen .reps {
+		padding-top: 25px;
+		font-size: 28px;
+	}
+	.appscreen .reps span {
+		font-size: 20px;
+	}
+	.app4btn2 {
+		left: 70px;
+	}
+	.app4btn3 {
+		top: 285px;
+	}
+	.app4btn4 {
+		top: 325px;
+	}
+	.app4btn5 {
+		top: 400px;
+		right: 10px;
+	}
+	/*app5*/
+	.appscreen .setfooditem h1 {
+		font-size: 22px;
+		margin: 15px auto 10px;
+	}
+	.appscreen  .form1Box ,.appscreen .form3Box {
+		height: 35px;
+		font-size: 19px;
+		line-height: 1.4;
+		margin-bottom: 20px;
+	}
+	.appscreen .form1 {
+		width: 15%;
+	}
+	.appscreen .form2 {
+		font-size: 26px;
+		line-height: 1.1;
+	}
+	.appscreen .foodpic {
+		height: 75px;
+		width: 50%;
+	}
+	.appscreen .foodDetiew {
+		font-size: 38px;
+	}
+	.appscreen .foodDetiew span {
+		font-size: 22px;
+	}
+	.appscreen .foodbtn {
+		margin: 10px 0 5px;
+		width: 80%;
+		height: 35px;
+		border-radius: 5px;
+		font-size: 18px;
+		padding: 7px 0;
+	}
+	.appscreen .foodP {
+		font-size: 16px;
+		padding-bottom: 7px;
+		border-bottom: 10px solid#003a9c;
+	}
+	.appscreen .setnutrition {
+		padding: 15px 0;
+		font-size: 18px;
+		box-shadow: 0 1px 2px 0 rgba(0,0,0,0,.16);
+	}
+	.app5btn2 {
+		top: 170px;
+		left: 90px;
+	}
+	.app5btn3 {
+		top: 340px;
+		left:  5px;
+	}
+	.app5btn4 {
+		top: 340px;
+		right: 10px;
+	}
+	.app5btn5 {
+		top: 525px;
+		left: 65px;
+	}
+	/*app6*/
+	.appscreen .circleapp6 {
+		width: 100px;
+		height: 100px;
+	}
+	.appscreen .app6txt {
+		font-size: 20px;
+		margin: 20px 0 15px;
+	}
+	.appscreen .totalwalk {
+		font-size: 18px;
+		line-height: 2.1;
+	}
+	.appscreen .app6P {
+		font-size: 20px;
+		line-height: 1.1;
+	}
+	.appscreen .app6P h6 {
+		font-size: 16px;
+	}
+	.appscreen .calwalk {
+		font-size: 34px;
+		line-height: .8;
+		padding: 20px 0;
+	}
+	.appscreen .calwalk span {
+		font-size: 24px;
+	}
+	.appscreen .app6P h2 {
+		font-size: 16px;
+	}
+	.appscreen .app6P h3 {
+		font-size: 16px;
+	}
+	.appscreen .app6P h3 span {
+		font-size: 12px;
+	}
+	#app6btn1 {
+		font-size: 24px;
+	}
+	#app6btn2 {
+		font-size: 26px;
+		padding-top: 0px;
+	}
+	.app6btn1 {
+		left: 150px;
+	}
+	.app6btn3 {
+		right: 50px;
+		top: 120px;
+	}
+	.app6btn4 {
+		right: 110px;
+		top: 280px;
+	}
+	.app6btn5 {
+		bottom: 35px;
+		right: 100px;
+	}
+	.statpic {
+		width: auto;
+		height: auto;
+	}
+
+	.flickity-enabled {
+	  position: relative;
+	}
+
+	.flickity-enabled:focus { outline: none; }
+
+	.flickity-viewport {
+	  overflow: hidden;
+	  position: relative;
+	  height: 100%;
+	}
+
+	.flickity-slider {
+	  position: absolute;
+	  width: 100%;
+	  height: 100%;
+	}
+	.headuse {
+		margin-left: 20%;
+	}
+	.usetext {
+		width: 45%;
+		font-size: 40px;
+	}
+
+}
+
+@-webkit-keyframes appfade {
+    0% {
+    opacity: 0}
+
+  100% {
+   opacity: 1 }
+}
+
+@keyframes appfade {
+  0% {
+    opacity: 0}
+  100% {
+   opacity: 1 }
+}
+.appfade {
+	 -webkit-animation: appfade 0.5s;
+          animation: appfade 0.5s;
+}
+.txtcal {
+	display: inline;
+}
+.Ncalbtn {
+	width: 30%;
+	margin-top: 2px;
+	padding: 4px 2px;
+	text-align: center;
+	background-color: #003a9c;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 13px;
+	cursor: pointer;
+}
+.Ncalbtn:active {
+	color: #052761;
+}
+/*app3*/
+.sreen3page1 , .workoutpage1 ,.workoutpage2 ,.workoutpage3 ,
+.programpage1  ,.programpage2 ,
+.nutritionPage3 {
+	width: 100%;
+	height: 100%;
+	float: left;
+	background-color: #fff;
+	font-family: 'kollektifregular','superspace_boldregular';
+}
+.nutritionPage3 {
+	color: #222;
+}
+.setworkout ,.setprogram {
+	width: 100%;
+	height: 50%;
+	float: left;
+	text-transform: uppercase;
+	text-align: center;
+	color: #ccc;
+	background-image: url(../images/iphoneWorkout.jpg);
+	/*background-size: 100%;*/
+	background-repeat: no-repeat;
+	background-position: center;
+	font-size: 38px;
+	line-height: 5;
+	cursor: pointer;
+}
+.setprogram {
+	background-image: url(../images/iphoneProgram.jpg);
+}
+
+.workoutpart {
+	width: 50%;
+	height: 33.33%;
+	float: left;
+	font-size: 30px;
+	text-align: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	line-height: 4;
+	cursor: pointer;
+	color: #ccc;
+	font-family: 'kollektifregular','superspace_boldregular';
+}
+.totalbody {
+	background-image: url(../images/part1.jpg);
+}
+.chest {
+	background-image: url(../images/part2.jpg);
+}
+.deltoi {
+	background-image: url(../images/part3.jpg);
+}
+.arm {
+	background-image: url(../images/part4.jpg);
+}
+.legs {
+	background-image: url(../images/part5.jpg);
+}
+.abs {
+	background-image: url(../images/part6.jpg);
+}
+.iphone .circleapp6 {
+	width: 60px;
+	height: 60px;
+	border: 0;
+	background-position :center 10px;
+}
+.iphone .setback {
+	padding: 0;
+	margin-left: -10px;
+	cursor:pointer;
+}
+.iphone .workoutpage2 .setapphead {
+	width: 70%;
+}
+.itemworkout {
+	width: 100%;
+	padding: 10px;
+	box-shadow: 0 1px 5px 0 rgba(0,0,0,1.6);
+	float: left;
+	background-color: #fff;
+	cursor: pointer;
+}
+.nameitem {
+	font-size: 18px;
+	color: #222;
+	line-height: .8;
+	font-family: 'kollektifregular';
+}
+.nameitem span {
+	font-size: 12px;
+	color: #999;
+	font-family: 'superspace_boldregular';
+}
+.workoutimg {
+	width: 70%;
+	height: 30px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	float: right;
+}
+.img1 {
+	background-image: url(../images/workoutimg1.png);
+}
+.img2 {
+	background-image: url(../images/workoutimg2.jpg);
+}
+.img3 {
+	background-image: url(../images/workoutimg3.jpg);
+}
+.img4 {
+	background-image: url(../images/workoutimg4.jpg);
+}
+.img5 {
+	background-image: url(../images/workoutimg5.png);
+}
+.img6 {
+	background-image: url(../images/workoutimg6.jpg);
+	background-position: bottom;
+}
+.img7 {
+	background-image: url(../images/workoutimg7.jpg);
+	background-position: center -20px;
+}
+.img8 {
+	background-image: url(../images/workoutimg8.jpg);
+	background-position: center ;
+}
+.img9 {
+	background-image: url(../images/workoutimg9.jpg);
+	background-position: center ;
+}
+.img10 {
+	background-image: url(../images/workoutimg10.jpg);
+	background-position: center ;
+}
+.iphone .fav {
+	margin: 0;
+	float: right;
+	font-size: 18px;
+	margin-top: 1px;
+}
+.iphone .crunchimg {
+	height: 60px;
+	margin: 10px auto;
+}
+.iphone .playcircle {
+	margin: 15px auto;
+}
+.iphone .fa-pause {
+	margin-left: -3px;
+}
+.iphone .app3detail h1 {
+	font-size: 18px;
+}
+.iphone .app3detail  p {
+	font-size: 13px;
+	line-height: 1.2;
+}
+.iphone .app3detail p span {
+	font-size: 16px;
+	line-height: 1.2;
+}
+.playPuase .crunchimg {
+	background-image: url(../images/crunch.jpg);
+}
+.playActive .crunchimg {
+	background-image: url(../images/crunch.gif);
+	background-size: 100%;
+	background-position: bottom;
+	margin-top: 8px;
+	margin-bottom: 17px;
+}
+.programpage1 .setapphead {
+	width: 72%;
+}
+.programitem {
+	width: 100%;
+	height: 22.3%;
+	float: left;
+	box-sizing: border-box;
+	padding: 10px;
+	color: #fff;
+	font-size: 26px;
+	background-size: 100%;
+	line-height: 2;
+	background-position: center;
+	cursor: pointer;
+}
+.proitemimg1 {
+	background-image: url(../images/itempro1.jpg);
+}
+.proitemimg2 {
+	background-image: url(../images/itempro2.jpg);
+}
+.proitemimg3 {
+	background-image: url(../images/itempro3.jpg);
+}
+.proitemimg4 {
+	background-image: url(../images/itempro4.jpg);
+}
+.programpage2 .setapphead ,.nutritionPage3 .setapphead {
+	font-size: 20px;
+	width: 72%;
+	padding-top: 2px;
+}
+.pro2item {
+	box-shadow: 0 1px 5px 0 rgba(0,0,0,0.4);
+	padding: 10px 0;
+	width: 100%;
+	float: left;
+	background-color: #fff;
+}
+.backTOprogramPage1 {
+	/*font-size: 18px;*/
+}
+.nutritionPage1 {
+	width: 100%;
+	height: 100%;
+	float: left;
+	background-image: url(../images/foodp1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+.fa-search {
+	margin: 0;
+	float: none;
+	cursor: none;
+}
+.nut1item {
+	width: 100%;
+	height: 20%;
+	float: left;
+	padding-left: 5%;
+	box-sizing: border-box;
+	background-color: #111;
+	opacity: .8;
+	font-size: 24px;
+	line-height: 2.8;
+	font-family: 'superspace_boldregular';
+	border-bottom: 4px solid#8d807e;
+	cursor: pointer;
+	transition: .5s ease-in-out;
+}
+.nut1item:hover {
+	background-color: #003a9c;
+	opacity: .5;
+}
+@media screen and (min-width: 1024px){
+	.iphone .setback {
+		margin-top: -3px;
+		margin-left: 0;
+	}
+	.iphone .fav {
+		margin-top: 1px;
+	}
+	.programpage2 .setapphead ,.nutritionPage3 .setapphead {
+		width: 85%;
+	}
+
+
+}
+
+.settingcir {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin: 10px auto;
+	border: 3px solid#003a9c;
+	background-position: center 15px;
+}
+.uploadpic {
+	width: 100%;
+	float: left;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+  	overflow: hidden;
+  	padding: 20px;
+  	box-sizing: border-box;
+  	border-radius: 5px;
+  	font-size: 16px;
+  	text-align: center;
+}
+.uploadpic input.btnupLoad {
+	height: 60px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.uploadpic span {
+	width: 80px;
+	height: 25px;
+	background-color: #003a9c;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[name=foodsearch]{
+	float: left;
+	border: 0;
+	background-color: transparent;
+	color: #fff;
+	font-size: 20px;
+	width: 70%;
+	padding:  5px 10px;
+}
+input[name=foodsearch]::-webkit-input-placeholder {
+   color: #fff;
+}
+
+input[name=foodsearch]:-moz-placeholder { /* Firefox 18- */
+   color: #fff;
+}
+input[name=foodsearch]::-moz-placeholder {  /* Firefox 19+ */
+   color: #fff;
+}
+input[name=foodsearch]:-ms-input-placeholder {
+   color: #fff;
+}
+.foodsearch {
+	float: right;
+	color: #003a9c;
+	font-size: 24px;
+	cursor: pointer;
+}
+.fooditem {
+	width: 100%;
+	float: left;
+	box-shadow: 0 3px 5px 0 rgba(0,0,0,0.16);
+	padding: 10px 20px;
+	cursor: pointer;
+}
+.fooditem span {
+	float: left;
+	color: #000;
+	font-family: 'superspace_boldregular';
+}
+.fooditem i {
+	float: right;
+	color: #003a9c;
+	font-size: 14px;
+}
+
+.bbhome ,.bblogin ,.bbsigh {
+	width: 100%;
+	height: 100%;
+	float: left;
+	background-image: url(../images/login-signup.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	box-sizing: border-box;
+	padding:  20% 0;
+}
+.bbbox {
+	width: 90%;
+	height: 90%;
+	margin: auto;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+.bbhome .logo {
+	width: 120%;
+	height: 95px;
+	margin: 10px 0 10px -20px
+}
+.bbtn {
+	width: 70%;
+	padding: 15px 0;
+	text-align: center;
+	background-color: rgba(3,43,110,0.7);
+	margin: 20px auto 10px;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 28px;
+	cursor: pointer;
+}
+.bblogin ,.bbsigh {
+	padding: 0;
+}
+.bblogin .apphead ,.bbsigh .apphead {
+	background-color: transparent;
+}
+.bbsigh .apphead {
+	margin-bottom: 0;
+}
+.bblogin form {
+	width: 90%;
+	height: 55%;
+	margin: 50px auto;
+	background-color: rgba(0, 0, 0, 0.6);
+	padding: 20px 0;
+	box-sizing: border-box;
+}
+.setlogin {
+	width: 90%;
+	padding: 5px 10px 7px;
+	background-color: rgba(165,165,165,0.6);
+	border-radius: 5px;
+	margin: 10px auto;
+}
+.setlogin i  , .setlogin span {
+	margin: 5px 5px 0;
+		font-size: 20px;
+}
+.setlogin span {
+	color: #333;
+	font-weight: bold;
+}
+.setlogin input {
+	background-color: transparent;
+	width: 70%;
+	border: 0;
+	padding:   5px;
+	margin-top: -7px;
+}
+.bblogin .bbtn ,.bbsigh .bbtn{
+	width: 50%;
+	font-size: 18px;
+}
+.bbsigh form {
+	width: 90%;
+	height: 75%;
+	margin: 25px auto;
+	background-color: rgba(0, 0, 0, 0.6);
+	padding: 20px 0;
+	box-sizing: border-box;
+}
+
+.err {
+	border: 3px solid red;
+}
+/*
+.err input::-webkit-input-placeholder {
+   color: red;
+}*/
+/*.err input:-moz-placeholder {
+   color: red;
+}
+.err input::-moz-placeholder {
+   color: red;
+}*/
+/*.err input:-ms-input-placeholder {
+   color: red;
+}*/
+
+.setnutcir {
+	width: 92%;
+	margin: 10px 4%;
+	position: relative;
+	float: left;
+}
+.circal {
+	width: 45px;
+	height: 45px;
+	background-color: #003a9c;
+	border-radius: 50%;
+	position: absolute;
+	left: 5%;
+	z-index: 50;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	padding: 7px 0;
+	box-sizing: border-box;
+	line-height: 0.9;
+}
+.circal span {
+	font-size: 18px;
+}
+.cirlevel {
+	width: 75%;
+	height: 25px;
+	overflow: hidden;
+	position: absolute;
+	top: 10px;
+	left: 22%;
+}
+.cirlevel .animated {
+	animation-duration: .4s;
+}
+.nutlevelbar {
+	text-align: center;
+	background-color: #ccc;
+	height: 100%;
+	line-height: 1.5;
+	transition: .5s ease-in-out;
+}
+.nutp3_2 .setbtn {
+	margin: 20px 0;
+	background-color: #fff;
+}
+.ntotalwalk3 {
+	width: 81%;
+}
+.totalrun2 {
+	width: 40%;
+}
+.totalswim2 {
+	width: 30%;
+}
+.totalbyt2 {
+	width: 50%;
+}
